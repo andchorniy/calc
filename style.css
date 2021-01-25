@@ -1,0 +1,93 @@
+td {
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.button-result {
+  width: 100%;
+  height: 60px;
+  background: #ebbb5d;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ebbb5d), to(#f7e236));
+  background: linear-gradient(0deg, #ebbb5d 0%, #f7e236 100%);
+}
+
+.button-result:hover, .button-result:focus {
+  -webkit-box-shadow: 0 0 25px #595954;
+          box-shadow: 0 0 25px #595954;
+  outline: none;
+}
+
+.button-calc {
+  width: 60px;
+  height: 60px;
+}
+
+.button-calc:hover, .button-calc:focus {
+  -webkit-box-shadow: 0 0 25px #595954;
+          box-shadow: 0 0 25px #595954;
+  outline: none;
+}
+
+.btn {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  font-family: "Hachi Maru Pop", cursive;
+}
+
+.dark-btn {
+  background: #dedcda;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dedcda), to(#d0cdd0));
+  background: linear-gradient(180deg, #dedcda 0%, #d0cdd0 100%);
+}
+
+.middle-btn {
+  background: #ebe8e6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ebe8e6), to(#e2dfe2));
+  background: linear-gradient(180deg, #ebe8e6 0%, #e2dfe2 100%);
+}
+
+.light-btn {
+  background: #f7f4f5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7f4f5), to(#edebec));
+  background: linear-gradient(180deg, #f7f4f5 0%, #edebec 100%);
+}
+
+.colored-btn {
+  background: #22c1c3;
+  background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), to(#fdbb2d));
+  background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
+}
+
+.result-container {
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: 28px;
+  text-align: right;
+  vertical-align: bottom;
+  padding: 0 15px 15px 15px;
+  width: 100%;
+  height: 90px;
+  background: #dedcda;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dedcda), to(#d0cdd0));
+  background: linear-gradient(180deg, #dedcda 0%, #d0cdd0 100%);
+}
+
+.preview {
+  display: block;
+  font-size: 15px;
+  text-align: left;
+}
+/*# sourceMappingURL=style.css.map */
