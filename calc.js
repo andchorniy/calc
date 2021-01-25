@@ -15,6 +15,7 @@ let preview = previewRef.textContent
 function getInputNumber(event) { 
     if (event.target.textContent === 'x') {
         preview += "*"
+        return previewRef.textContent = preview
     }
     if (event.target.textContent === '+/-') {
         if (preview.split('')[0] === '-') { 
@@ -38,10 +39,12 @@ function getInputNumber(event) {
 }
 
 buttonToResultRef.addEventListener('click', getResult)
-
+let result = 0;
 function getResult() { 
-    preview = +preview
-    console.log(preview);
+    result = eval(preview)
+    preview = ''
+    resultRef.textContent = result
+    console.log(result);
 }
 
 
